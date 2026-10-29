@@ -1,0 +1,1195 @@
+{
+  "form_id": "VAT_SMALL_2026",
+  "form_name": "增值税及附加税费申报表（小规模纳税人适用）",
+  "form_version": "legacy_small_2026",
+  "origin": "reconstructed_official_row_working_paper",
+  "official_form_url": "https://shanghai.chinatax.gov.cn/tax/bsfw/xzzx/bgxz/sbzsl/202107/t459066.html",
+  "template_sha256": "3125e6327883f888ea2f1e392a364f25d08fee60d8b5f6c9598cc84fe9b0e0d9",
+  "context_bindings": {
+    "taxpayer_id": {
+      "sheet": "增值税主表",
+      "cell": "B2"
+    },
+    "period_start": {
+      "sheet": "增值税主表",
+      "cell": "D2"
+    },
+    "period_end": {
+      "sheet": "增值税主表",
+      "cell": "F2"
+    }
+  },
+  "identity_fields": [
+    {
+      "context_key": "taxpayer_id",
+      "label": "纳税人识别号",
+      "target": {
+        "sheet": "增值税主表",
+        "cell": "B2",
+        "anchor": {
+          "cell": "A2",
+          "text": "纳税人识别号"
+        }
+      }
+    },
+    {
+      "context_key": "taxpayer_name",
+      "label": "纳税人名称",
+      "target": {
+        "sheet": "增值税主表",
+        "cell": "B3",
+        "anchor": {
+          "cell": "A3",
+          "text": "纳税人名称"
+        }
+      }
+    },
+    {
+      "context_key": "period_start",
+      "label": "所属期开始",
+      "target": {
+        "sheet": "增值税主表",
+        "cell": "D2",
+        "anchor": {
+          "cell": "C2",
+          "text": "所属期开始"
+        }
+      }
+    },
+    {
+      "context_key": "period_end",
+      "label": "所属期结束",
+      "target": {
+        "sheet": "增值税主表",
+        "cell": "F2",
+        "anchor": {
+          "cell": "E2",
+          "text": "所属期结束"
+        }
+      }
+    },
+    {
+      "context_key": "taxpayer_id",
+      "label": "纳税人识别号",
+      "target": {
+        "sheet": "附加税费",
+        "cell": "B2",
+        "anchor": {
+          "cell": "A2",
+          "text": "纳税人识别号"
+        }
+      }
+    },
+    {
+      "context_key": "taxpayer_name",
+      "label": "纳税人名称",
+      "target": {
+        "sheet": "附加税费",
+        "cell": "B3",
+        "anchor": {
+          "cell": "A3",
+          "text": "纳税人名称"
+        }
+      }
+    },
+    {
+      "context_key": "period_start",
+      "label": "所属期开始",
+      "target": {
+        "sheet": "附加税费",
+        "cell": "D2",
+        "anchor": {
+          "cell": "C2",
+          "text": "所属期开始"
+        }
+      }
+    },
+    {
+      "context_key": "period_end",
+      "label": "所属期结束",
+      "target": {
+        "sheet": "附加税费",
+        "cell": "F2",
+        "anchor": {
+          "cell": "E2",
+          "text": "所属期结束"
+        }
+      }
+    },
+    {
+      "context_key": "taxpayer_id",
+      "label": "纳税人识别号",
+      "target": {
+        "sheet": "减税明细",
+        "cell": "B2",
+        "anchor": {
+          "cell": "A2",
+          "text": "纳税人识别号"
+        }
+      }
+    },
+    {
+      "context_key": "taxpayer_name",
+      "label": "纳税人名称",
+      "target": {
+        "sheet": "减税明细",
+        "cell": "B3",
+        "anchor": {
+          "cell": "A3",
+          "text": "纳税人名称"
+        }
+      }
+    },
+    {
+      "context_key": "period_start",
+      "label": "所属期开始",
+      "target": {
+        "sheet": "减税明细",
+        "cell": "D2",
+        "anchor": {
+          "cell": "C2",
+          "text": "所属期开始"
+        }
+      }
+    },
+    {
+      "context_key": "period_end",
+      "label": "所属期结束",
+      "target": {
+        "sheet": "减税明细",
+        "cell": "F2",
+        "anchor": {
+          "cell": "E2",
+          "text": "所属期结束"
+        }
+      }
+    }
+  ],
+  "line_targets": {
+    "1": {
+      "goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "C6",
+        "anchor": {
+          "cell": "B6",
+          "text": "应征增值税不含税销售额（3%征收率）"
+        }
+      },
+      "services": {
+        "sheet": "增值税主表",
+        "cell": "D6",
+        "anchor": {
+          "cell": "B6",
+          "text": "应征增值税不含税销售额（3%征收率）"
+        }
+      },
+      "ytd_goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "E6",
+        "anchor": {
+          "cell": "B6",
+          "text": "应征增值税不含税销售额（3%征收率）"
+        }
+      },
+      "ytd_services": {
+        "sheet": "增值税主表",
+        "cell": "F6",
+        "anchor": {
+          "cell": "B6",
+          "text": "应征增值税不含税销售额（3%征收率）"
+        }
+      }
+    },
+    "2": {
+      "goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "C7",
+        "anchor": {
+          "cell": "B7",
+          "text": "增值税专用发票不含税销售额"
+        }
+      },
+      "services": {
+        "sheet": "增值税主表",
+        "cell": "D7",
+        "anchor": {
+          "cell": "B7",
+          "text": "增值税专用发票不含税销售额"
+        }
+      },
+      "ytd_goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "E7",
+        "anchor": {
+          "cell": "B7",
+          "text": "增值税专用发票不含税销售额"
+        }
+      },
+      "ytd_services": {
+        "sheet": "增值税主表",
+        "cell": "F7",
+        "anchor": {
+          "cell": "B7",
+          "text": "增值税专用发票不含税销售额"
+        }
+      }
+    },
+    "3": {
+      "goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "C8",
+        "anchor": {
+          "cell": "B8",
+          "text": "其他增值税发票不含税销售额"
+        }
+      },
+      "services": {
+        "sheet": "增值税主表",
+        "cell": "D8",
+        "anchor": {
+          "cell": "B8",
+          "text": "其他增值税发票不含税销售额"
+        }
+      },
+      "ytd_goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "E8",
+        "anchor": {
+          "cell": "B8",
+          "text": "其他增值税发票不含税销售额"
+        }
+      },
+      "ytd_services": {
+        "sheet": "增值税主表",
+        "cell": "F8",
+        "anchor": {
+          "cell": "B8",
+          "text": "其他增值税发票不含税销售额"
+        }
+      }
+    },
+    "4": {
+      "services": {
+        "sheet": "增值税主表",
+        "cell": "D9",
+        "anchor": {
+          "cell": "B9",
+          "text": "应征增值税不含税销售额（5%征收率）"
+        }
+      },
+      "ytd_services": {
+        "sheet": "增值税主表",
+        "cell": "F9",
+        "anchor": {
+          "cell": "B9",
+          "text": "应征增值税不含税销售额（5%征收率）"
+        }
+      }
+    },
+    "5": {
+      "services": {
+        "sheet": "增值税主表",
+        "cell": "D10",
+        "anchor": {
+          "cell": "B10",
+          "text": "增值税专用发票不含税销售额"
+        }
+      },
+      "ytd_services": {
+        "sheet": "增值税主表",
+        "cell": "F10",
+        "anchor": {
+          "cell": "B10",
+          "text": "增值税专用发票不含税销售额"
+        }
+      }
+    },
+    "6": {
+      "services": {
+        "sheet": "增值税主表",
+        "cell": "D11",
+        "anchor": {
+          "cell": "B11",
+          "text": "其他增值税发票不含税销售额"
+        }
+      },
+      "ytd_services": {
+        "sheet": "增值税主表",
+        "cell": "F11",
+        "anchor": {
+          "cell": "B11",
+          "text": "其他增值税发票不含税销售额"
+        }
+      }
+    },
+    "7": {
+      "goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "C12",
+        "anchor": {
+          "cell": "B12",
+          "text": "销售使用过的固定资产不含税销售额"
+        }
+      },
+      "ytd_goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "E12",
+        "anchor": {
+          "cell": "B12",
+          "text": "销售使用过的固定资产不含税销售额"
+        }
+      }
+    },
+    "8": {
+      "goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "C13",
+        "anchor": {
+          "cell": "B13",
+          "text": "其中：其他增值税发票不含税销售额"
+        }
+      },
+      "ytd_goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "E13",
+        "anchor": {
+          "cell": "B13",
+          "text": "其中：其他增值税发票不含税销售额"
+        }
+      }
+    },
+    "9": {
+      "goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "C14",
+        "anchor": {
+          "cell": "B14",
+          "text": "免税销售额"
+        }
+      },
+      "services": {
+        "sheet": "增值税主表",
+        "cell": "D14",
+        "anchor": {
+          "cell": "B14",
+          "text": "免税销售额"
+        }
+      },
+      "ytd_goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "E14",
+        "anchor": {
+          "cell": "B14",
+          "text": "免税销售额"
+        }
+      },
+      "ytd_services": {
+        "sheet": "增值税主表",
+        "cell": "F14",
+        "anchor": {
+          "cell": "B14",
+          "text": "免税销售额"
+        }
+      }
+    },
+    "10": {
+      "goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "C15",
+        "anchor": {
+          "cell": "B15",
+          "text": "其中：小微企业免税销售额"
+        }
+      },
+      "services": {
+        "sheet": "增值税主表",
+        "cell": "D15",
+        "anchor": {
+          "cell": "B15",
+          "text": "其中：小微企业免税销售额"
+        }
+      },
+      "ytd_goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "E15",
+        "anchor": {
+          "cell": "B15",
+          "text": "其中：小微企业免税销售额"
+        }
+      },
+      "ytd_services": {
+        "sheet": "增值税主表",
+        "cell": "F15",
+        "anchor": {
+          "cell": "B15",
+          "text": "其中：小微企业免税销售额"
+        }
+      }
+    },
+    "11": {
+      "goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "C16",
+        "anchor": {
+          "cell": "B16",
+          "text": "未达起征点销售额"
+        }
+      },
+      "services": {
+        "sheet": "增值税主表",
+        "cell": "D16",
+        "anchor": {
+          "cell": "B16",
+          "text": "未达起征点销售额"
+        }
+      },
+      "ytd_goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "E16",
+        "anchor": {
+          "cell": "B16",
+          "text": "未达起征点销售额"
+        }
+      },
+      "ytd_services": {
+        "sheet": "增值税主表",
+        "cell": "F16",
+        "anchor": {
+          "cell": "B16",
+          "text": "未达起征点销售额"
+        }
+      }
+    },
+    "12": {
+      "goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "C17",
+        "anchor": {
+          "cell": "B17",
+          "text": "其他免税销售额"
+        }
+      },
+      "services": {
+        "sheet": "增值税主表",
+        "cell": "D17",
+        "anchor": {
+          "cell": "B17",
+          "text": "其他免税销售额"
+        }
+      },
+      "ytd_goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "E17",
+        "anchor": {
+          "cell": "B17",
+          "text": "其他免税销售额"
+        }
+      },
+      "ytd_services": {
+        "sheet": "增值税主表",
+        "cell": "F17",
+        "anchor": {
+          "cell": "B17",
+          "text": "其他免税销售额"
+        }
+      }
+    },
+    "13": {
+      "goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "C18",
+        "anchor": {
+          "cell": "B18",
+          "text": "出口免税销售额"
+        }
+      },
+      "services": {
+        "sheet": "增值税主表",
+        "cell": "D18",
+        "anchor": {
+          "cell": "B18",
+          "text": "出口免税销售额"
+        }
+      },
+      "ytd_goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "E18",
+        "anchor": {
+          "cell": "B18",
+          "text": "出口免税销售额"
+        }
+      },
+      "ytd_services": {
+        "sheet": "增值税主表",
+        "cell": "F18",
+        "anchor": {
+          "cell": "B18",
+          "text": "出口免税销售额"
+        }
+      }
+    },
+    "14": {
+      "goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "C19",
+        "anchor": {
+          "cell": "B19",
+          "text": "其中：其他增值税发票不含税销售额"
+        }
+      },
+      "services": {
+        "sheet": "增值税主表",
+        "cell": "D19",
+        "anchor": {
+          "cell": "B19",
+          "text": "其中：其他增值税发票不含税销售额"
+        }
+      },
+      "ytd_goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "E19",
+        "anchor": {
+          "cell": "B19",
+          "text": "其中：其他增值税发票不含税销售额"
+        }
+      },
+      "ytd_services": {
+        "sheet": "增值税主表",
+        "cell": "F19",
+        "anchor": {
+          "cell": "B19",
+          "text": "其中：其他增值税发票不含税销售额"
+        }
+      }
+    },
+    "15": {
+      "goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "C20",
+        "anchor": {
+          "cell": "B20",
+          "text": "本期应纳税额"
+        }
+      },
+      "services": {
+        "sheet": "增值税主表",
+        "cell": "D20",
+        "anchor": {
+          "cell": "B20",
+          "text": "本期应纳税额"
+        }
+      },
+      "ytd_goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "E20",
+        "anchor": {
+          "cell": "B20",
+          "text": "本期应纳税额"
+        }
+      },
+      "ytd_services": {
+        "sheet": "增值税主表",
+        "cell": "F20",
+        "anchor": {
+          "cell": "B20",
+          "text": "本期应纳税额"
+        }
+      }
+    },
+    "16": {
+      "goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "C21",
+        "anchor": {
+          "cell": "B21",
+          "text": "本期应纳税额减征额"
+        }
+      },
+      "services": {
+        "sheet": "增值税主表",
+        "cell": "D21",
+        "anchor": {
+          "cell": "B21",
+          "text": "本期应纳税额减征额"
+        }
+      },
+      "ytd_goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "E21",
+        "anchor": {
+          "cell": "B21",
+          "text": "本期应纳税额减征额"
+        }
+      },
+      "ytd_services": {
+        "sheet": "增值税主表",
+        "cell": "F21",
+        "anchor": {
+          "cell": "B21",
+          "text": "本期应纳税额减征额"
+        }
+      }
+    },
+    "17": {
+      "goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "C22",
+        "anchor": {
+          "cell": "B22",
+          "text": "本期免税额"
+        }
+      },
+      "services": {
+        "sheet": "增值税主表",
+        "cell": "D22",
+        "anchor": {
+          "cell": "B22",
+          "text": "本期免税额"
+        }
+      },
+      "ytd_goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "E22",
+        "anchor": {
+          "cell": "B22",
+          "text": "本期免税额"
+        }
+      },
+      "ytd_services": {
+        "sheet": "增值税主表",
+        "cell": "F22",
+        "anchor": {
+          "cell": "B22",
+          "text": "本期免税额"
+        }
+      }
+    },
+    "18": {
+      "goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "C23",
+        "anchor": {
+          "cell": "B23",
+          "text": "其中：小微企业免税额"
+        }
+      },
+      "services": {
+        "sheet": "增值税主表",
+        "cell": "D23",
+        "anchor": {
+          "cell": "B23",
+          "text": "其中：小微企业免税额"
+        }
+      },
+      "ytd_goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "E23",
+        "anchor": {
+          "cell": "B23",
+          "text": "其中：小微企业免税额"
+        }
+      },
+      "ytd_services": {
+        "sheet": "增值税主表",
+        "cell": "F23",
+        "anchor": {
+          "cell": "B23",
+          "text": "其中：小微企业免税额"
+        }
+      }
+    },
+    "19": {
+      "goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "C24",
+        "anchor": {
+          "cell": "B24",
+          "text": "未达起征点免税额"
+        }
+      },
+      "services": {
+        "sheet": "增值税主表",
+        "cell": "D24",
+        "anchor": {
+          "cell": "B24",
+          "text": "未达起征点免税额"
+        }
+      },
+      "ytd_goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "E24",
+        "anchor": {
+          "cell": "B24",
+          "text": "未达起征点免税额"
+        }
+      },
+      "ytd_services": {
+        "sheet": "增值税主表",
+        "cell": "F24",
+        "anchor": {
+          "cell": "B24",
+          "text": "未达起征点免税额"
+        }
+      }
+    },
+    "20": {
+      "goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "C25",
+        "anchor": {
+          "cell": "B25",
+          "text": "应纳税额合计"
+        }
+      },
+      "services": {
+        "sheet": "增值税主表",
+        "cell": "D25",
+        "anchor": {
+          "cell": "B25",
+          "text": "应纳税额合计"
+        }
+      },
+      "ytd_goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "E25",
+        "anchor": {
+          "cell": "B25",
+          "text": "应纳税额合计"
+        }
+      },
+      "ytd_services": {
+        "sheet": "增值税主表",
+        "cell": "F25",
+        "anchor": {
+          "cell": "B25",
+          "text": "应纳税额合计"
+        }
+      }
+    },
+    "21": {
+      "goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "C26",
+        "anchor": {
+          "cell": "B26",
+          "text": "本期预缴税额"
+        }
+      },
+      "services": {
+        "sheet": "增值税主表",
+        "cell": "D26",
+        "anchor": {
+          "cell": "B26",
+          "text": "本期预缴税额"
+        }
+      }
+    },
+    "22": {
+      "goods_labor": {
+        "sheet": "增值税主表",
+        "cell": "C27",
+        "anchor": {
+          "cell": "B27",
+          "text": "本期应补（退）税额"
+        }
+      },
+      "services": {
+        "sheet": "增值税主表",
+        "cell": "D27",
+        "anchor": {
+          "cell": "B27",
+          "text": "本期应补（退）税额"
+        }
+      }
+    },
+    "23": {
+      "total": {
+        "sheet": "增值税主表",
+        "cell": "C28",
+        "anchor": {
+          "cell": "B28",
+          "text": "城市维护建设税本期应补（退）税额"
+        }
+      }
+    },
+    "24": {
+      "total": {
+        "sheet": "增值税主表",
+        "cell": "C29",
+        "anchor": {
+          "cell": "B29",
+          "text": "教育费附加本期应补（退）费额"
+        }
+      }
+    },
+    "25": {
+      "total": {
+        "sheet": "增值税主表",
+        "cell": "C30",
+        "anchor": {
+          "cell": "B30",
+          "text": "地方教育附加本期应补（退）费额"
+        }
+      }
+    }
+  },
+  "not_applicable_targets": [
+    {
+      "row": "4",
+      "key": "goods_labor",
+      "expected": "0.00"
+    },
+    {
+      "row": "4",
+      "key": "ytd_goods_labor",
+      "expected": "0.00"
+    },
+    {
+      "row": "5",
+      "key": "goods_labor",
+      "expected": "0.00"
+    },
+    {
+      "row": "5",
+      "key": "ytd_goods_labor",
+      "expected": "0.00"
+    },
+    {
+      "row": "6",
+      "key": "goods_labor",
+      "expected": "0.00"
+    },
+    {
+      "row": "6",
+      "key": "ytd_goods_labor",
+      "expected": "0.00"
+    },
+    {
+      "row": "7",
+      "key": "services",
+      "expected": "0.00"
+    },
+    {
+      "row": "7",
+      "key": "ytd_services",
+      "expected": "0.00"
+    },
+    {
+      "row": "8",
+      "key": "services",
+      "expected": "0.00"
+    },
+    {
+      "row": "8",
+      "key": "ytd_services",
+      "expected": "0.00"
+    }
+  ],
+  "surcharge_targets": {
+    "urban": {
+      "1": {
+        "sheet": "附加税费",
+        "cell": "B6",
+        "anchor": {
+          "cell": "B5",
+          "text": "1 增值税税额"
+        },
+        "unit": "money"
+      },
+      "2": {
+        "sheet": "附加税费",
+        "cell": "C6",
+        "anchor": {
+          "cell": "C5",
+          "text": "2 税费率"
+        },
+        "unit": "rate"
+      },
+      "3": {
+        "sheet": "附加税费",
+        "cell": "D6",
+        "anchor": {
+          "cell": "D5",
+          "text": "3 应纳税费"
+        },
+        "unit": "money"
+      },
+      "4": {
+        "sheet": "附加税费",
+        "cell": "E6",
+        "anchor": {
+          "cell": "E5",
+          "text": "4 减免性质代码"
+        },
+        "unit": "text"
+      },
+      "5": {
+        "sheet": "附加税费",
+        "cell": "F6",
+        "anchor": {
+          "cell": "F5",
+          "text": "5 其他减免"
+        },
+        "unit": "money"
+      },
+      "6": {
+        "sheet": "附加税费",
+        "cell": "G6",
+        "anchor": {
+          "cell": "G5",
+          "text": "6 减征比例"
+        },
+        "unit": "rate"
+      },
+      "7": {
+        "sheet": "附加税费",
+        "cell": "H6",
+        "anchor": {
+          "cell": "H5",
+          "text": "7 减征额"
+        },
+        "unit": "money"
+      },
+      "8": {
+        "sheet": "附加税费",
+        "cell": "I6",
+        "anchor": {
+          "cell": "I5",
+          "text": "8 本期已缴"
+        },
+        "unit": "money"
+      },
+      "9": {
+        "sheet": "附加税费",
+        "cell": "J6",
+        "anchor": {
+          "cell": "J5",
+          "text": "9 本期应补（退）"
+        },
+        "unit": "money"
+      }
+    },
+    "education": {
+      "1": {
+        "sheet": "附加税费",
+        "cell": "B7",
+        "anchor": {
+          "cell": "B5",
+          "text": "1 增值税税额"
+        },
+        "unit": "money"
+      },
+      "2": {
+        "sheet": "附加税费",
+        "cell": "C7",
+        "anchor": {
+          "cell": "C5",
+          "text": "2 税费率"
+        },
+        "unit": "rate"
+      },
+      "3": {
+        "sheet": "附加税费",
+        "cell": "D7",
+        "anchor": {
+          "cell": "D5",
+          "text": "3 应纳税费"
+        },
+        "unit": "money"
+      },
+      "4": {
+        "sheet": "附加税费",
+        "cell": "E7",
+        "anchor": {
+          "cell": "E5",
+          "text": "4 减免性质代码"
+        },
+        "unit": "text"
+      },
+      "5": {
+        "sheet": "附加税费",
+        "cell": "F7",
+        "anchor": {
+          "cell": "F5",
+          "text": "5 其他减免"
+        },
+        "unit": "money"
+      },
+      "6": {
+        "sheet": "附加税费",
+        "cell": "G7",
+        "anchor": {
+          "cell": "G5",
+          "text": "6 减征比例"
+        },
+        "unit": "rate"
+      },
+      "7": {
+        "sheet": "附加税费",
+        "cell": "H7",
+        "anchor": {
+          "cell": "H5",
+          "text": "7 减征额"
+        },
+        "unit": "money"
+      },
+      "8": {
+        "sheet": "附加税费",
+        "cell": "I7",
+        "anchor": {
+          "cell": "I5",
+          "text": "8 本期已缴"
+        },
+        "unit": "money"
+      },
+      "9": {
+        "sheet": "附加税费",
+        "cell": "J7",
+        "anchor": {
+          "cell": "J5",
+          "text": "9 本期应补（退）"
+        },
+        "unit": "money"
+      }
+    },
+    "local_education": {
+      "1": {
+        "sheet": "附加税费",
+        "cell": "B8",
+        "anchor": {
+          "cell": "B5",
+          "text": "1 增值税税额"
+        },
+        "unit": "money"
+      },
+      "2": {
+        "sheet": "附加税费",
+        "cell": "C8",
+        "anchor": {
+          "cell": "C5",
+          "text": "2 税费率"
+        },
+        "unit": "rate"
+      },
+      "3": {
+        "sheet": "附加税费",
+        "cell": "D8",
+        "anchor": {
+          "cell": "D5",
+          "text": "3 应纳税费"
+        },
+        "unit": "money"
+      },
+      "4": {
+        "sheet": "附加税费",
+        "cell": "E8",
+        "anchor": {
+          "cell": "E5",
+          "text": "4 减免性质代码"
+        },
+        "unit": "text"
+      },
+      "5": {
+        "sheet": "附加税费",
+        "cell": "F8",
+        "anchor": {
+          "cell": "F5",
+          "text": "5 其他减免"
+        },
+        "unit": "money"
+      },
+      "6": {
+        "sheet": "附加税费",
+        "cell": "G8",
+        "anchor": {
+          "cell": "G5",
+          "text": "6 减征比例"
+        },
+        "unit": "rate"
+      },
+      "7": {
+        "sheet": "附加税费",
+        "cell": "H8",
+        "anchor": {
+          "cell": "H5",
+          "text": "7 减征额"
+        },
+        "unit": "money"
+      },
+      "8": {
+        "sheet": "附加税费",
+        "cell": "I8",
+        "anchor": {
+          "cell": "I5",
+          "text": "8 本期已缴"
+        },
+        "unit": "money"
+      },
+      "9": {
+        "sheet": "附加税费",
+        "cell": "J8",
+        "anchor": {
+          "cell": "J5",
+          "text": "9 本期应补（退）"
+        },
+        "unit": "money"
+      }
+    }
+  },
+  "relief_targets": {
+    "1": {
+      "sheet": "减税明细",
+      "cell": "C6",
+      "anchor": {
+        "cell": "C5",
+        "text": "1 期初余额"
+      },
+      "unit": "money"
+    },
+    "2": {
+      "sheet": "减税明细",
+      "cell": "D6",
+      "anchor": {
+        "cell": "D5",
+        "text": "2 本期发生"
+      },
+      "unit": "money"
+    },
+    "3": {
+      "sheet": "减税明细",
+      "cell": "E6",
+      "anchor": {
+        "cell": "E5",
+        "text": "3 本期应抵减"
+      },
+      "unit": "money"
+    },
+    "4": {
+      "sheet": "减税明细",
+      "cell": "F6",
+      "anchor": {
+        "cell": "F5",
+        "text": "4 本期实际抵减"
+      },
+      "unit": "money"
+    },
+    "5": {
+      "sheet": "减税明细",
+      "cell": "G6",
+      "anchor": {
+        "cell": "G5",
+        "text": "5 期末余额"
+      },
+      "unit": "money"
+    },
+    "code": {
+      "sheet": "减税明细",
+      "cell": "B6",
+      "anchor": {
+        "cell": "B5",
+        "text": "减税性质代码"
+      },
+      "unit": "text"
+    }
+  }
+}

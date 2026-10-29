@@ -1,0 +1,406 @@
+{
+  "form_id": "A200000",
+  "form_name": "中华人民共和国企业所得税月（季）度预缴纳税申报表（A类）",
+  "form_version": "国家税务总局公告2025年第17号",
+  "origin": "reconstructed_official_row_working_paper",
+  "official_form_url": "https://12366.chinatax.gov.cn/bzds/059/059.html",
+  "template_sha256": "0de246f0fc29c45ea57f401ab5353cc6df0874e9b5023121e70f0437495493f0",
+  "context_bindings": {
+    "taxpayer_id": {
+      "sheet": "A200000",
+      "cell": "B2"
+    },
+    "period_start": {
+      "sheet": "A200000",
+      "cell": "D2"
+    },
+    "period_end": {
+      "sheet": "A200000",
+      "cell": "F2"
+    }
+  },
+  "identity_fields": [
+    {
+      "context_key": "taxpayer_id",
+      "label": "纳税人识别号",
+      "target": {
+        "sheet": "A200000",
+        "cell": "B2",
+        "anchor": {
+          "cell": "A2",
+          "text": "纳税人识别号"
+        }
+      }
+    },
+    {
+      "context_key": "taxpayer_name",
+      "label": "纳税人名称",
+      "target": {
+        "sheet": "A200000",
+        "cell": "B3",
+        "anchor": {
+          "cell": "A3",
+          "text": "纳税人名称"
+        }
+      }
+    },
+    {
+      "context_key": "period_start",
+      "label": "所属期开始",
+      "target": {
+        "sheet": "A200000",
+        "cell": "D2",
+        "anchor": {
+          "cell": "C2",
+          "text": "所属期开始"
+        }
+      }
+    },
+    {
+      "context_key": "period_end",
+      "label": "所属期结束",
+      "target": {
+        "sheet": "A200000",
+        "cell": "F2",
+        "anchor": {
+          "cell": "E2",
+          "text": "所属期结束"
+        }
+      }
+    }
+  ],
+  "line_targets": {
+    "1": {
+      "sheet": "A200000",
+      "cell": "C6",
+      "anchor": {
+        "cell": "B6",
+        "text": "营业收入"
+      }
+    },
+    "2": {
+      "sheet": "A200000",
+      "cell": "C7",
+      "anchor": {
+        "cell": "B7",
+        "text": "营业成本"
+      }
+    },
+    "3": {
+      "sheet": "A200000",
+      "cell": "C8",
+      "anchor": {
+        "cell": "B8",
+        "text": "税金及附加"
+      }
+    },
+    "4": {
+      "sheet": "A200000",
+      "cell": "C9",
+      "anchor": {
+        "cell": "B9",
+        "text": "销售费用"
+      }
+    },
+    "5": {
+      "sheet": "A200000",
+      "cell": "C10",
+      "anchor": {
+        "cell": "B10",
+        "text": "管理费用"
+      }
+    },
+    "6": {
+      "sheet": "A200000",
+      "cell": "C11",
+      "anchor": {
+        "cell": "B11",
+        "text": "研发费用"
+      }
+    },
+    "7": {
+      "sheet": "A200000",
+      "cell": "C12",
+      "anchor": {
+        "cell": "B12",
+        "text": "财务费用"
+      }
+    },
+    "8": {
+      "sheet": "A200000",
+      "cell": "C13",
+      "anchor": {
+        "cell": "B13",
+        "text": "其他收益"
+      }
+    },
+    "9": {
+      "sheet": "A200000",
+      "cell": "C14",
+      "anchor": {
+        "cell": "B14",
+        "text": "投资收益"
+      }
+    },
+    "10": {
+      "sheet": "A200000",
+      "cell": "C15",
+      "anchor": {
+        "cell": "B15",
+        "text": "净敞口套期收益"
+      }
+    },
+    "11": {
+      "sheet": "A200000",
+      "cell": "C16",
+      "anchor": {
+        "cell": "B16",
+        "text": "公允价值变动收益"
+      }
+    },
+    "12": {
+      "sheet": "A200000",
+      "cell": "C17",
+      "anchor": {
+        "cell": "B17",
+        "text": "信用减值损失"
+      }
+    },
+    "13": {
+      "sheet": "A200000",
+      "cell": "C18",
+      "anchor": {
+        "cell": "B18",
+        "text": "资产减值损失"
+      }
+    },
+    "14": {
+      "sheet": "A200000",
+      "cell": "C19",
+      "anchor": {
+        "cell": "B19",
+        "text": "资产处置收益"
+      }
+    },
+    "15": {
+      "sheet": "A200000",
+      "cell": "C20",
+      "anchor": {
+        "cell": "B20",
+        "text": "营业利润"
+      }
+    },
+    "16": {
+      "sheet": "A200000",
+      "cell": "C21",
+      "anchor": {
+        "cell": "B21",
+        "text": "营业外收入"
+      }
+    },
+    "17": {
+      "sheet": "A200000",
+      "cell": "C22",
+      "anchor": {
+        "cell": "B22",
+        "text": "营业外支出"
+      }
+    },
+    "18": {
+      "sheet": "A200000",
+      "cell": "C23",
+      "anchor": {
+        "cell": "B23",
+        "text": "利润总额"
+      }
+    },
+    "19": {
+      "sheet": "A200000",
+      "cell": "C24",
+      "anchor": {
+        "cell": "B24",
+        "text": "加：特定业务计算的应纳税所得额"
+      }
+    },
+    "20": {
+      "sheet": "A200000",
+      "cell": "C25",
+      "anchor": {
+        "cell": "B25",
+        "text": "减：不征税收入"
+      }
+    },
+    "21": {
+      "sheet": "A200000",
+      "cell": "C26",
+      "anchor": {
+        "cell": "B26",
+        "text": "减：资产加速折旧、摊销（扣除）调减额"
+      }
+    },
+    "22": {
+      "sheet": "A200000",
+      "cell": "C27",
+      "anchor": {
+        "cell": "B27",
+        "text": "减：免税收入、减计收入、加计扣除"
+      }
+    },
+    "23": {
+      "sheet": "A200000",
+      "cell": "C28",
+      "anchor": {
+        "cell": "B28",
+        "text": "减：所得减免"
+      }
+    },
+    "24": {
+      "sheet": "A200000",
+      "cell": "C29",
+      "anchor": {
+        "cell": "B29",
+        "text": "减：弥补以前年度亏损"
+      }
+    },
+    "25": {
+      "sheet": "A200000",
+      "cell": "C30",
+      "anchor": {
+        "cell": "B30",
+        "text": "实际利润额"
+      }
+    },
+    "26": {
+      "sheet": "A200000",
+      "cell": "C31",
+      "anchor": {
+        "cell": "B31",
+        "text": "税率（25%）"
+      }
+    },
+    "27": {
+      "sheet": "A200000",
+      "cell": "C32",
+      "anchor": {
+        "cell": "B32",
+        "text": "应纳所得税额"
+      }
+    },
+    "28": {
+      "sheet": "A200000",
+      "cell": "C33",
+      "anchor": {
+        "cell": "B33",
+        "text": "减：减免所得税额"
+      }
+    },
+    "29": {
+      "sheet": "A200000",
+      "cell": "C34",
+      "anchor": {
+        "cell": "B34",
+        "text": "减：抵免所得税额"
+      }
+    },
+    "30": {
+      "sheet": "A200000",
+      "cell": "C35",
+      "anchor": {
+        "cell": "B35",
+        "text": "减：本年累计已预缴所得税额"
+      }
+    },
+    "31": {
+      "sheet": "A200000",
+      "cell": "C36",
+      "anchor": {
+        "cell": "B36",
+        "text": "减：特定业务预缴（征）所得税额"
+      }
+    },
+    "32": {
+      "sheet": "A200000",
+      "cell": "C37",
+      "anchor": {
+        "cell": "B37",
+        "text": "本期应补（退）所得税额"
+      }
+    },
+    "33": {
+      "sheet": "A200000",
+      "cell": "C38",
+      "anchor": {
+        "cell": "B38",
+        "text": "总机构本期分摊应补（退）所得税额"
+      }
+    },
+    "34": {
+      "sheet": "A200000",
+      "cell": "C39",
+      "anchor": {
+        "cell": "B39",
+        "text": "其中：总机构分摊应补（退）所得税额"
+      }
+    },
+    "35": {
+      "sheet": "A200000",
+      "cell": "C40",
+      "anchor": {
+        "cell": "B40",
+        "text": "财政集中分配应补（退）所得税额"
+      }
+    },
+    "36": {
+      "sheet": "A200000",
+      "cell": "C41",
+      "anchor": {
+        "cell": "B41",
+        "text": "总机构主体生产经营部门分摊应补（退）所得税额"
+      }
+    },
+    "37": {
+      "sheet": "A200000",
+      "cell": "C42",
+      "anchor": {
+        "cell": "B42",
+        "text": "分支机构本期分摊比例"
+      }
+    },
+    "38": {
+      "sheet": "A200000",
+      "cell": "C43",
+      "anchor": {
+        "cell": "B43",
+        "text": "分支机构本期分摊应补（退）所得税额"
+      }
+    },
+    "39": {
+      "sheet": "A200000",
+      "cell": "C44",
+      "anchor": {
+        "cell": "B44",
+        "text": "减：民族自治地区企业所得税地方分享部分"
+      }
+    },
+    "40": {
+      "sheet": "A200000",
+      "cell": "C45",
+      "anchor": {
+        "cell": "B45",
+        "text": "实际应补（退）所得税额"
+      }
+    }
+  },
+  "fixed_values": {
+    "26": {
+      "sheet": "A200000",
+      "cell": "C31",
+      "value": "0.25"
+    },
+    "37": {
+      "sheet": "A200000",
+      "cell": "C42",
+      "value": "0.00"
+    }
+  }
+}
